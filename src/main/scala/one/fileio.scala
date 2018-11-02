@@ -1,4 +1,4 @@
-import scala.io.Source
+package one
 
 object fileio{
   var dut: fileDao = _

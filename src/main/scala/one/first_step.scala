@@ -1,3 +1,5 @@
+package one
+
 object first_step {
   def main(args: Array[String]): Unit ={
     println("First Step")

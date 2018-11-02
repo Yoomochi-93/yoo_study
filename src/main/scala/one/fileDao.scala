@@ -1,3 +1,5 @@
+package one
+
 import scala.io.Source
 
 class fileDao(recv_filename : String) {

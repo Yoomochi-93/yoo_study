@@ -1,3 +1,5 @@
+package one
+
 import scala.io.Source
 
 object second_step {

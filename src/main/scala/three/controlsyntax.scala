@@ -54,6 +54,10 @@ object controlsyntax extends App{
       processLine(line)
   }
 
+  def echo(args : String*) ={
+    for (arg <- args) println(arg)
+  }
+
   grep(".*gcd.*")
 
   val forLinelength = for{
@@ -81,4 +85,12 @@ object controlsyntax extends App{
   someNumbers.foreach(x => println(x))
   println(someNumbers.filter((x) => x>0))
 
+  val f = (_: Int) + (_: Int)
+
+  println(f(5,10))
+
+  val arr = Array("one","Two","Three")
+  echo("one")
+  echo("one","Two")
+  echo(arr: _*)
 }
